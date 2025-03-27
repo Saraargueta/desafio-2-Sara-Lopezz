@@ -1,0 +1,35 @@
+header{
+    background-color: #FFE4E1;
+
+}
+header.img{
+    margin: left 150px;
+    height: 90px;
+}
+.logo{
+    width: 100px ;
+}
+header{
+    text-align:center ;
+}
+nav li{
+    display: inline ;
+    padding: 60px ; 
+    font-size: 20px ;
+}
+nav a{
+    text-decoration: none ;
+    color: black  ;
+}
+.cards{
+    margin: 20px;
+    width: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: ;
+}
+
+
+
+    
+
