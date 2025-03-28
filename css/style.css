@@ -1,33 +1,135 @@
-header{
-    background-color: #FFE4E1;
+body{
+    font-family: "Playfair Display", serif;
+}
 
+header img{
+    height: 150px;
+    margin-left: 90%;
 }
-header.img{
-    margin: left 150px;
-    height: 90px;
-}
-.logo{
-    width: 100px ;
-}
+
 header{
+    background-color: rgb(245, 227, 227);
+    width: 100%;
     text-align:center ;
 }
+
+nav a{
+    font-size: 30px;
+    text-decoration: none;
+    color: #f8d3f3;
+    margin: 15px;
+   
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    
+}
+aside{
+    height: 100px;
+    display:flex;
+justify-content: center;
+
+}
+
 nav li{
     display: inline ;
     padding: 60px ; 
     font-size: 20px ;
 }
-nav a{
-    text-decoration: none ;
+nav a
+    {
+        text-decoration: none ;
     color: black  ;
-}
-.cards{
-    margin: 20px;
-    width: 300px;
-    border-radius: 20px;
-    overflow: hidden;
-    box-shadow: ;
-}
+    }
+    .logo {
+        font-size: 24px;
+        font-weight: bold;
+    }
+    
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        gap: 20px;
+    }
+    
+    nav ul li {
+        display: inline;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: #333;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    .productos {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
+        flex-wrap: wrap;
+    }
+    
+    .producto {
+        background: white;
+        padding: 15px;
+        border-radius: 10px;
+        text-align: center;
+        width: 150px;
+    }
+    
+    .producto img {
+        width: 100%;
+        border-radius: 10px;
+    }
+    
+    .destacado {
+        text-align: center;
+        margin: 30px 0;
+    }
+    
+    .destacado img {
+        width: 200px;
+        border-radius: 10px;
+    }
+
+    .cards{
+        margin: 20px;
+        width: 300px;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: ;
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+        background-color: #340408;
+        padding: 20px;
+        color: white;
+    }
+    
+    .boton button{
+        margin-top: 5%;
+        width: 200px;
+        height: 70px;
+        border-radius: 40px;
+        margin-left: 25px;
+    }
+        
+    .boton a{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    }
+        
+    
+    
 
 
 
